@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 
 
-img = cv2.imread("C:/Users/shalf/Desktop/lc-video/save/0.jpg")
+img = cv2.imread("C:/Users/shalf/Desktop/CameraController/save/0.jpg")
 
-# hsv = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)#HSV空间
+hsv = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)#HSV空间
 
 lower_blue=np.array([110,100,100])#blue
 upper_blue=np.array([130,255,255])
