@@ -20,7 +20,7 @@ def nothing(x):
     b = cv.getTrackbarPos('B', winName)
     s = cv.getTrackbarPos(switch, winName)
     # 如果开关为0，则图片显示为黑色
-    if s == 0:
+    if s == 1:
         img[:] = 0
     else:
         img[:] = [b, g, r]
@@ -40,8 +40,4 @@ if __name__ == '__main__':
     nothing(0)
     cv.waitKey(0)
     cv.destroyAllWindows()
----------------------
-作者：TanKimko
-来源：CSDN
-原文：https: // blog.csdn.net / tankimko / article / details / 80019410
-版权声明：本文为博主原创文章，转载请附上博文链接！
+
