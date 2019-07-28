@@ -21,7 +21,7 @@ python show-all.py
 
 Just for capturing the camera image in real time,
 
-######python test.py
+```python test.py```
 
 Adjust RGB Weight on Black Picture
 
