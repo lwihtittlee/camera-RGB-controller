@@ -15,7 +15,7 @@ All computations are performed on the CPU.
 ## Uasge
 Real-time RGB channel separator for camera
 
-######python show-all.py
+~~~python show-all.py
 
 Just for capturing the camera image in real time,
 
