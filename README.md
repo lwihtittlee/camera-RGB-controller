@@ -13,11 +13,29 @@ numpy
 All computations are performed on the CPU.
 
 #Uasge
+Real-time RGB channel separator for camera
+
+######python show-all.py
+
 Just for capturing the camera image in real time,
 
-python test.py
+######python test.py
 
 Adjust RGB Weight on Black Picture
+
+######python trackbars.py
+
+Functional form
+
+######python fuction.py
+
+Testing of calls
+
+######python main.py
+
+
+
+
 
 
 

@@ -8,7 +8,6 @@ while(1):
 
     ret,frame =cap.read()    #ret 为True 或者False,代表有没有读取到图片  frame表示截取到一帧的图片 （BGR）
 
-
 #     if ret==True:
 #         print (type(frame))
 #         print (ret)#观察frame和ret的类型
@@ -17,15 +16,12 @@ while(1):
 
 
 
-    #cv2.imshow("frame", frame)     #正常显示frame
-
-
-    b, g ,r =cv2.split(frame)      #分离BGR三个通道
+    b, g ,r = cv2.split(frame)      #分离BGR三个通道
     merged = cv2.merge([b,g,r])    #合并三个通道
 
 
 
-    #原始图像
+    #正常显示原始图像
     cv2.imshow('image',frame)
 
     #单通道的灰度图

@@ -1,4 +1,7 @@
-from fuction2 import show_rgb
+from fuction import show_red
+from fuction import show_blue
+from fuction import show_green
 
-show_rgb = show_rgb(color=ord("r"))   /#输入“r,g,b” 输出原始图，单通道灰度图，单通道融合图
-sess.run(show_rgb)
+# show_red()
+show_blue()
+# show_green()
